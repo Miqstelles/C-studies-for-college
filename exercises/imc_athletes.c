@@ -10,7 +10,7 @@ int main(){
     int i, imcSuperior = 0, imcInferior = 0;
 
 
-    for(i=0; i<2; i++){
+    for(i=0; i<15; i++){
         printf("\nInsira a inicial do seu nome: ");
         scanf(" %c", &inicialNome);
 
@@ -37,10 +37,10 @@ int main(){
         mediaImc += peso/pow(altura, 2);
     }
 
-    printf("\nMédia das alturas: %.2f ", mediaAltura / i);
+    printf("\nMÃ©dia das alturas: %.2f ", mediaAltura / i);
     printf("\nQuantidade de competidores com IMC superior a 24,9: %i", imcSuperior);
     printf("\nQuantidade de competidores com IMC inferior a 18,5: %i", imcInferior);
-    printf("\nMédia dos IMCs: %.2f", mediaImc / i);
+    printf("\nMÃ©dia dos IMCs: %.2f", mediaImc / i);
 
     return 0;
 }
