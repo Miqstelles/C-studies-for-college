@@ -31,8 +31,8 @@ int main(){
         }
         mediaAltura += altura;
 
-        if("%f", peso/pow(altura, 2) > 24.9) imcSuperior++;
-        if("%f", peso/pow(altura, 2) < 18.5) imcInferior++;
+        if(peso/pow(altura, 2) > 24.9) imcSuperior++;
+        if(peso/pow(altura, 2) < 18.5) imcInferior++;
 
         mediaImc += peso/pow(altura, 2);
     }
